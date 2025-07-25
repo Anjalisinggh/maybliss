@@ -968,31 +968,7 @@ export default function WellnessApp() {
               Your comprehensive companion for nutrition, health, and mindful living
             </p>
           </div>
-          <div className="flex gap-2">
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={() => {
-                setAuthMode("signin")
-                setShowAuth(true)
-              }}
-              className="border-amber-300 text-amber-700 hover:bg-amber-100 text-xs"
-            >
-              <LogIn className="w-3 h-3 mr-1" />
-              Sign In
-            </Button>
-            <Button
-              size="sm"
-              onClick={() => {
-                setAuthMode("signup")
-                setShowAuth(true)
-              }}
-              className="bg-amber-600 hover:bg-amber-700 text-xs"
-            >
-              <User className="w-3 h-3 mr-1" />
-              Sign Up
-            </Button>
-          </div>
+       
         </div>
 
         <Tabs defaultValue="nutrition" className="w-full">

@@ -92,3 +92,17 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-playfair: 'Playfair Display', serif;
+}
+
+body {
+  font-family: var(--font-inter);
+}
+
+/* You can use --font-playfair on headings or special sections */
+h1, h2, .fancy-heading {
+  font-family: var(--font-playfair);
+}
